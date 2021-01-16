@@ -21,7 +21,7 @@ selection_keys = [
 def response(msg: str, author: str, admin: bool) -> str:
     """Determine appropriate action to take.
 
-    msg: text of incomming message from discord
+    msg: text of incoming message from discord
     author: the name of the user sending the message
     admin: is the user sending the message an admin
     """
